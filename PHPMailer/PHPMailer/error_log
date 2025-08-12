@@ -1,0 +1,5 @@
+[30-Apr-2025 13:43:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/hamddngt/empworkflow.hamdanitc.com/PHPMailer/PHPMailer.php on line 23
+[30-Apr-2025 19:31:40 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "]" in /tmp/.multi on line 3
+[01-May-2025 02:03:21 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "]" in /tmp/.center on line 5
+[01-May-2025 08:32:22 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "]" in /tmp/.sys on line 8
+[01-May-2025 13:46:35 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/hamddngt/empworkflow.hamdanitc.com/PHPMailer/Exception.php on line 23

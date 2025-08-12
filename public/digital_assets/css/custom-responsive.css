@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1400px) {
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+
+.mobile-num {
+    display: flex;
+    background-color: #ffba00;
+    justify-content: space-between;
+}
+
+
+.badge-div{
+display: none;
+}
+
+
+.floatbutton{
+    display: none;
+}
+
+.testi-img{
+    display: none;
+}
+
+.main-header{
+    display: none;
+}
+
+.responsive-header{
+    display: flex;
+}
+
+.responsive-number {
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+
+}
+
+
+
+@media only screen and (max-width:992px) {
+
+
+}
+
+
+@media only screen and (max-width:991px) {
+
+.footer_about{
+    width: 100%;
+}
+
+.our-pricing-planss .package{
+    margin-bottom: 30px;
+}
+
+.main-banner-contact{
+    margin: 0px;
+}
+
+section.banner{
+    padding-top: 13em;
+}
+
+.heading-form h3{
+    line-height: 27px;
+}
+
+button#submit{
+        padding: 8px 22px;
+}
+
+.our-pricing-planss p{
+    padding: 0px;
+}
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+    
+   .step2-title.container h1 span {
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+    z-index: 1;
+    padding: 0 10px;
+    line-height: 22px;
+}
+
+h3.step-section-title-n{
+font-size:19px;
+text-align:center;
+}
+
+.gray-scr h3>span{
+    width: 100%;
+    padding:0px;
+}
+
+.main-banner-contact{
+    margin-top: 30px;
+}
+
+section.banner h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.banner-left ul {
+    text-align: center;
+}
+
+.content-style-1 h3{
+    line-height: 40px;
+}
+
+.cta-new-sec-head h1{
+        line-height: 40px;
+        font-size: 30px;
+}
+
+.content-style-2 h3{
+    text-align: center;
+}
+
+.content-style-2 p{
+    text-align: center;
+}
+
+.branding-icon ul li{
+    margin-right: 0px;
+}
+
+footer h3{
+    text-align: center;
+}
+
+.footer_about p{
+    text-align: center;
+}
+
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+section.banner h1{
+font-size: 25px;
+}
+
+.content-style-1 h3{
+    font-size: 25px;
+    line-height: 42px;
+}
+
+.cta-new-sec-head h1 {
+    line-height: 39px;
+    font-size: 25px;
+}
+
+.shape{
+    display: none;
+}
+
+.cta-new-sec-btn-list ul{
+flex-direction: column;
+    gap: 16px;
+}
+
+.mobile-num {
+    display: flex;
+    background-color: #ffba00;
+    position: fixed;
+    width: 100%;
+}
+
+.responsive-header{padding: 80px 20px 20px 0px;}
+
+
+.mobile-num a {
+    font-size: 13px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.intl-tel-input .country-list {
+    width: 250px;
+}
+
+}

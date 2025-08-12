@@ -1,0 +1,390 @@
+/* Responsve Styling */
+@media only screen and (min-width: 320px) and (max-width: 519px) {
+  .branding-icon ul li img {
+width: 40px;
+top: auto;
+}
+  .testimonial-title h3 {
+font-size: 20px;}
+  .footer_about {
+width: 100%;
+}
+  .spon-images {
+margin-top: 1em;
+}
+header.site-header{
+  position: absolute;
+}
+.badge-div {
+      display:none;
+  }
+  
+.responsive-number{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  color: #ffffff !important;
+  top: 0;
+  left: 0;
+}
+.copy_right p {
+  text-align: center;
+}
+section.project h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 42px;
+}
+.main-header {
+  display: none;
+}
+.responsive-header {
+  display: flex;
+  padding-top: 70px;
+}
+section.banner h1 {
+  font-size: 34px;
+  line-height: 1.35;
+}
+.banner-left p,
+.banner-left ul li,
+.content-style-2 p,
+.testimonial-content p {
+  font-size: 14px !important;
+}
+.banner-left ul {
+  text-align: left;
+}
+.main-banner-contact {
+  margin: 3rem 0 0;
+  padding: 1rem 2rem;
+}
+.heading-form h3 {
+  font-size: 22px;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+.heading-form h6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.project-box {
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 3rem;
+}
+.pro-phone ul li:nth-child(1) {
+  text-align: center;
+}
+.project-box:before {
+  width: 84px;
+  height: 3px;
+  top: 55%;
+}
+section.brand {
+  padding: 20px 0;
+}
+.brand-img {
+  margin: 1rem 0;
+}
+
+.content-style-2 h3 {
+  font-size: 29px !important;
+}
+.content-style-2 p {
+  padding: 0;
+  width: 100%;
+}
+.branding-icon ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 2rem;
+}
+.branding-icon {
+  margin-bottom: 1.75rem;
+}
+.testi-img img {
+  transform: scale(0.75);
+}
+footer {
+  padding: 70px 0 !important;
+}
+
+.footer_about p {
+  margin-bottom: 0;
+}
+
+.footer_about ul li :is(a, address) {
+  width: 317px;
+}
+
+.form_heading {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.callback button {
+  width: 100%;
+}
+
+.card_img img {
+  width: 331px;
+}
+
+.copy_right {
+  margin-top: 21px;
+}
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+header.site-header{
+  position: absolute;
+}
+.badge-div {
+      display:none;
+  }
+.responsive-number{
+  display: flex;  
+}
+.copy_right p {
+  text-align: center;
+}
+section.project h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 42px;
+}
+.main-header {
+  display: none;
+}
+.responsive-header {
+  display: flex;
+}
+section.banner h1 {
+  font-size: 34px;
+}
+.banner-left p,
+.banner-left ul li,
+.content-style-2 p,
+.testimonial-content p,
+.our-pricing-plans p {
+  font-size: 14px !important;
+}
+.our-pricing-plans p {
+  width: 100%;
+  padding: 0;
+}
+.banner-left ul {
+  text-align: left;
+}
+.main-banner-contact {
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+}
+.heading-form h3 {
+  font-size: 22px;
+  line-height: 17px;
+  margin-bottom: 2rem;
+}
+.heading-form h6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.project-box {
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 3rem;
+}
+.pro-phone ul li:nth-child(1) {
+  text-align: center;
+}
+.project-box:before {
+  width: 84px;
+  height: 3px;
+  top: 55%;
+}
+section.brand {
+  padding: 20px 0;
+}
+.brand-img {
+  margin: 1rem 0;
+}
+
+.content-style-2 h3 {
+  font-size: 29px !important;
+}
+.content-style-2 p {
+  padding: 0;
+  width: 100%;
+}
+.branding-icon ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 2rem;
+}
+.branding-icon {
+  margin-bottom: 1.75rem;
+}
+.testi-img img {
+  transform: scale(1);
+}
+footer {
+  padding: 70px 0 !important;
+}
+
+.footer_about p {
+  margin-bottom: -38px;
+}
+
+.footer_about ul li :is(a, address) {
+  width: 317px;
+}
+
+.form_heading {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.callback button {
+  width: 100%;
+}
+
+.card_img img {
+  width: 331px;
+}
+
+.copy_right {
+  margin-top: 21px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .badge-div {
+      display:none;
+  }
+header.site-header{
+  position: absolute;
+}
+.responsive-number{
+  display: flex;  
+}
+.full-col {
+  max-width: 100%;
+}
+section.project h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 42px;
+}
+.our-pricing-plans p {
+  width: 100%;
+  padding: 0;
+}
+.main-header {
+  display: none;
+}
+.responsive-header {
+  display: flex;
+}
+section.banner h1 {
+  font-size: 34px;
+}
+.banner-left p,
+.banner-left ul li,
+.content-style-2 p,
+.testimonial-content p {
+  font-size: 14px !important;
+}
+.banner-left ul {
+  text-align: left;
+}
+.main-banner-contact {
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+}
+.heading-form h3 {
+  font-size: 22px;
+  line-height: 17px;
+  margin-bottom: 2rem;
+}
+.heading-form h6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.project-box {
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 3rem;
+}
+.pro-phone ul li:nth-child(1) {
+  text-align: center;
+}
+.project-box:before {
+  width: 84px;
+  height: 3px;
+  top: 55%;
+}
+section.brand {
+  padding: 20px 0;
+}
+.brand-img {
+  margin: 1rem 0;
+}
+
+.content-style-2 h3 {
+  font-size: 29px !important;
+}
+.content-style-2 p {
+  padding: 0;
+  width: 100%;
+}
+.branding-icon ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 2rem;
+}
+.branding-icon {
+  margin-bottom: 1.75rem;
+}
+.testi-img img {
+  transform: scale(1);
+}
+footer {
+  padding: 70px 0 !important;
+}
+
+.footer_about p {
+  margin-bottom: -38px;
+}
+
+.footer_about ul li :is(a, address) {
+  width: 317px;
+}
+
+.form_heading {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.callback button {
+  width: 100%;
+}
+
+.card_img img {
+  width: 331px;
+}
+
+.copy_right {
+  margin-top: 21px;
+}
+.owl-pricing .owl-nav .owl-prev {
+  left: -40px;
+}
+.owl-pricing .owl-nav .owl-next {
+  right: -40px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+}

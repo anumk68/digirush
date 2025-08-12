@@ -1,0 +1,110 @@
+@extends('layouts.new-admin.app')
+<style>
+    .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-blurred {
+        height: 150px;
+    }
+</style>
+@section('content')
+
+    <div class="page-wrapper">
+        <div class="page-content">
+            <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                <div class="breadcrumb-title pe-3">Case Studies</div>
+                <div class="ps-3">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 p-0">
+                            <li class="breadcrumb-item"><a href="{{route('admin.new_dashboard')}}"><i
+                                        class="bx bx-home-alt"></i></a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">New</li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+
+            <h6 class="mb-0 text-uppercase">Case Study</h6>
+            <hr />
+
+            <div class="card">
+
+                <div class="card-body">
+                    <form id="add_form" class="form-horizontal" action="{{ route('case.store') }}"
+                        enctype="multipart/form-data" method="POST">
+                        @csrf
+                        <div class="form-group row">
+                            <label class="col-md-3 col-form-label">
+                                Title
+                                <span class="text-danger">*</span>
+                            </label>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="Title" onkeyup="makeSlug(this.value)" id="title"
+                                    name="title" class="form-control" value="{{ old('title') }}" required>
+                            </div>
+                        </div><br>
+
+                        <div class="form-group row">
+                            <label class="col-md-3 col-form-label">
+                                Slug
+                                <span class="text-danger">*</span>
+                            </label>
+                            <div class="col-md-9">
+                                <input type="text" placeholder="slug" onkeyup="makeSlug(this.value)" id="slug"
+                                    name="slug" class="form-control" value="{{ old('slug') }}" required>
+                            </div>
+                        </div><br>
+
+                        <div class="form-group row">
+                            <label class="col-md-3 col-form-label" for="signinSrEmail">
+                                Banner
+                            </label>
+                            <div class="col-md-9">
+                                <div class="input-group" data-toggle="aizuploader" data-type="image">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bg-soft-secondary font-weight-medium">
+                                            <input type="file" id="fancy-file-upload" name="banner" class="selected-files"
+                                                required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="file-preview box sm">
+                                </div>
+                            </div>
+                        </div><br>
+
+                        <div class="form-group row" id="category">
+                            <label class="col-md-3 col-from-label">
+                                Status
+                            </label>
+                            <div class="col-md-9">
+                                <select class="form-control aiz-selectpicker" name="status" id="category_id"
+                                    data-live-search="true" required>
+                                    <option value="active">Active</option>
+                                    <option value="inactive">Inactive</option>
+                                </select>
+                            </div>
+                        </div><br>
+
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">
+                                Description
+                            </label>
+                            <div class="col-md-9">
+                                <textarea class="form-control" id="editor" rows="3" name="description"></textarea>
+                            </div>
+                        </div><br>
+
+                        <div class="form-group mb-0 text-right">
+                            <button type="submit" class="btn btn-primary">
+                                Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+@endsection
